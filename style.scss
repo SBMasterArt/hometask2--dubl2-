@@ -1,0 +1,71 @@
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-family: "Heebo", sans-serif;
+
+  .container {
+    align-items: center;
+    display: flex;
+    justify-content: right;
+    & nav {
+      padding: 27px 60px;
+
+      & a {
+        margin-right: 33px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 29px;
+      }
+    }
+  }
+  .container1 {
+    padding: 100px 20px 58px;
+    .section {
+      max-width: 860px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      .block {
+        display: flex;
+        .blockIn {
+          .hiJohn {
+            font-weight: 700;
+            font-size: 44px;
+          }
+          .justText {
+            margin-top: 40px;
+            font-weight: 900;
+            font-size: 16px;
+          }
+          & button {
+            border-color: rgb(255, 255, 255);
+            background-color: rgb(255, 73, 73);
+            margin-top: 38px;
+            width: 210px;
+            height: 45px;
+            font-weight: 500;
+            font-size: 20px;
+            color: white;
+            &:hover {
+              background-color: rgb(255, 255, 255);
+              color: #000000;
+              transition: 500ms ease;
+            }
+          }
+        }
+        & picture {
+          & img {
+            margin-left: 115px;
+          }
+        }
+      }
+    }
+  }
+}
